@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include naos_salon *.css
+recursive-include naos_salon *.csv
+recursive-include naos_salon *.html
+recursive-include naos_salon *.ico
+recursive-include naos_salon *.js
+recursive-include naos_salon *.json
+recursive-include naos_salon *.md
+recursive-include naos_salon *.png
+recursive-include naos_salon *.py
+recursive-include naos_salon *.svg
+recursive-include naos_salon *.txt
+recursive-exclude naos_salon *.pyc
