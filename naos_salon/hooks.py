@@ -7,6 +7,10 @@ app_description = "Naos Salon Customizations"
 app_email = "jgiron@cuatrocubos.com"
 app_license = "MIT"
 
+fixtures = [
+    {"dt": "Custom Field", "filters": [["module", "like", "Naos Salon"]]},
+]
+
 # Includes in <head>
 # ------------------
 
